@@ -5,7 +5,7 @@ import "github.com/awesome-gocui/gocui"
 func RegisterKeybinds(g *gocui.Gui) error {
 	// Register global keybinds
 	// Ctrl+C Quit
-	if err := g.SetKeybinding("", gocui.KeyCtrlC, gocui.ModNone, quit); err != nil {
+	if err := g.SetKeybinding("", gocui.KeyEsc, gocui.ModNone, quit); err != nil {
 		return err
 	}
 

@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"firegodjr/lazywork/gui"
-
 	"github.com/awesome-gocui/gocui"
+	"github.com/firegodjr/lazywork/gui"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module firegodjr/lazywork
+module github.com/firegodjr/lazywork
 
 go 1.25.0
 
